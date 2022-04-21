@@ -1,0 +1,7 @@
+.photo-grid {
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px 30px;
+}
