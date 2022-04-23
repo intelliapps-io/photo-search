@@ -34,6 +34,8 @@ const imagesUrls: IImageUrlList = {
     baseUrl + '/snow/snow1.jpg',
     baseUrl + '/snow/snow2.jpg',
     baseUrl + '/snow/snow3.jpg',
+    baseUrl + '/snow/snow4.jpeg',
+    baseUrl + '/snow/snow5.jpeg',
   ], 
   water: [
     baseUrl + '/water/water1.jpg',
@@ -44,7 +46,7 @@ const imagesUrls: IImageUrlList = {
   ]
 }
 
-type ImageType = 'dog' | 'fish' | 'land' | 'snow' | 'water'
+export type ImageType = 'dog' | 'fish' | 'land' | 'snow' | 'water'
 export type ImageArrayItem = {type: ImageType, url: string }
 type ImagesArray = ImageArrayItem[]
 

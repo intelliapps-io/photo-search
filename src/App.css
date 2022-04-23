@@ -1,7 +1,6 @@
 .logo {
   font-size: 30px;
   color: #fff;
-  text-align: center;
 }
 
 .ant-layout-content {
@@ -13,3 +12,16 @@
   height: 67px;
 }
 
+.app-header {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.ant-segmented-item-label {
+  text-transform: capitalize;
+}
+
+/* .footer {
+ 
+} */
